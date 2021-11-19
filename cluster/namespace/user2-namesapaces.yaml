@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: argocd-user02
+  name: argocd-user2
 spec:
   finalizers:
   - kubernetes
@@ -9,7 +9,7 @@ spec:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: spring-petclinic-user02
+  name: spring-petclinic-user2
 spec:
   finalizers:
   - kubernetes
@@ -17,7 +17,7 @@ spec:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: spring-petclinic-prod-user02
+  name: spring-petclinic-prod-user2
 spec:
   finalizers:
   - kubernetes
